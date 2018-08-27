@@ -1,0 +1,23 @@
+{
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "standard.autoFixOnSave": true,
+  "standard.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  "standard.options": {
+    "plugins": [
+      "html"
+    ]
+  },
+}
